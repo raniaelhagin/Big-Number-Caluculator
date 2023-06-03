@@ -35,7 +35,7 @@
 
 ### sample of the output:
 
-#### with string manipuulation (there is a bug in the suubtract function)
+#### with string manipuulation (there is a bug in the subtract function)
 30372409569031345150
 
 -257757741939240190167381907471630
