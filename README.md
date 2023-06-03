@@ -26,7 +26,29 @@
 - For floating point results the precision should be correct up to 20 digits after decimal point.
 
 
-## Solution:
-- Because python can handle very large numbers directly as it supports "bignum" data type which can work with big numbers which exceeds the boundaries of 32-bit
+## Solution: 
+- Because python can handle very large numbers directly as it supports "bignum" data type which can work with big numbers which exceeds the boundaries of 32-bit (the inputs are integers only, I used int function to cast-type it)
 
-- We also cold use string manipulation and arithmetic operation for every digit to solve this problem 
+- We also could use string manipulation and arithmetic operation for every digit to solve this problem 
+(I just handled addition and subtraction in this case and the other operation works as before)
+
+
+### sample of the output:
+
+#### with string manipuulation (there is a bug in the suubtract function)
+30372409569031345150
+-257757741939240190167381907471630
+571712153451308380719393946245913596458
+0.00000000012496721674
+119370570035291945842202176197289847968040560359834096790392529909347217443783
+495723097523549750923487059
+2.7149354674379663e+25
+
+#### with using numbers directly
+30372409569031345150
+-256757741939240190167381907471630
+571712153451308380719393946245913596458
+0.00000000012496721674
+119370570035291945842202176197289847968040560359834096790392529909347217443783
+495723097523549750923487059
+2.7149354674379663e+25
