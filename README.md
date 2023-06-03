@@ -36,7 +36,7 @@
 ### sample of the output:
 ---
 
-**With string manipuulation** (there is a bug in the subtract function)
+**With string manipuulation** (there is a bug in the subtract function (handled in v1.1))
 
 30372409569031345150
 
