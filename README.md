@@ -34,8 +34,10 @@
 
 
 ### sample of the output:
+---
 
-#### with string manipuulation (there is a bug in the subtract function)
+**With string manipuulation** (there is a bug in the subtract function)
+
 30372409569031345150
 
 -257757741939240190167381907471630
@@ -50,7 +52,10 @@
 
 2.7149354674379663e+25
 
-#### with using numbers directly
+----
+
+**Using numbers directly**
+
 30372409569031345150
 
 -256757741939240190167381907471630
